@@ -63,5 +63,5 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'seilorrede'
-          slot-name: 'Production'
+          #slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D03A2A5DDBD0470EAC3B5E0DC8B2B1EA }}
